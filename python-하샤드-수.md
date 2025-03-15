@@ -4,7 +4,7 @@
 &nbsp;
 
 ### [ 코드 및 설명 ]
-```python
+```pythonit 
 def solution(x):
     l = list(str(x))				# 입력받은 수를 문자열로 나눠 각 자리수 별로 리스트에 저장
     s = sum([int(i) for i in l])	# 리스트에 저장한 수를 모두 합산
