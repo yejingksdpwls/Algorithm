@@ -2,7 +2,7 @@
 # 가게 안에 부품이 모두 있는지 확인하는 프로그램을 작성하시오.
 
 def find_part(find, list, start, end):
-    if start > end:
+    if start > end: # 이 조건이 핵심임. 까먹지 말 것!
         return print('no', end=' ') 
 
     mid = (start+end) // 2
